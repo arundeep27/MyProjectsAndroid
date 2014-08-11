@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+android:background="@drawable/homee">
+    <TextView android:layout_height="wrap_content" android:textColor="#FFE87C" android:text="Enter Your Income" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_x="13dip" android:layout_y="89dip"></TextView>
+    <EditText android:layout_height="wrap_content" android:text="" android:id="@+id/incomenew" android:layout_width="wrap_content" android:layout_x="172dip" android:layout_y="74dip"></EditText>
+    <Button android:id="@+id/save" android:textColor="#7D053F" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Update" android:layout_x="149dip" android:layout_y="188dip"></Button>
+</AbsoluteLayout>

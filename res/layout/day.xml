@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/homee"
+  >
+    <Button android:id="@+id/pickDate" android:textColor="#7D053F"  android:layout_height="wrap_content" android:text="Select date" android:layout_width="wrap_content" android:layout_x="102dip" android:layout_y="76dip"></Button>
+    <Button android:id="@+id/showtrans" android:textColor="#7D053F" android:layout_height="wrap_content" android:text="Show Transactions" android:layout_width="wrap_content" android:layout_x="82dip" android:layout_y="170dip"></Button>
+</AbsoluteLayout>

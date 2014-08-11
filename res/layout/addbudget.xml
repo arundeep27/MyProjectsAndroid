@@ -1,0 +1,7 @@
+
+    <AbsoluteLayout android:id="@+id/absoluteLayout1" android:background="@drawable/homee" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textColor="#FFE87C" android:text="Enter the Income and click on save" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="41dip" android:layout_y="22dip"></TextView>
+        <EditText android:id="@+id/income" android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="162dip" android:layout_y="108dip"></EditText>
+        <Button android:id="@+id/save" android:textColor="#7D053F" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" android:layout_x="117dip" android:layout_y="192dip"></Button>
+        <TextView android:textColor="#FFE87C" android:text="Enter the Income" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="25dip" android:layout_y="120dip"></TextView>
+    </AbsoluteLayout>

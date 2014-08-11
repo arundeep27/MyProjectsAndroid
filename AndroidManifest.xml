@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="gen.fs"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="Act1"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ 		<activity android:name=".Register">
+		   <intent-filter>
+		      <action android:name="gen.fs.Register"/>
+		   </intent-filter>
+		</activity>
+			<activity android:name=".Home">
+		   <intent-filter>
+		      <action android:name="gen.fs.Home"/>
+		   </intent-filter>
+		</activity>
+	<activity android:name=".Budget">
+		   <intent-filter>
+		      <action android:name="gen.fs.Budget"/>
+		   </intent-filter>
+		</activity>
+
+			<activity android:name=".Expenses">
+		   <intent-filter>
+		      <action android:name="gen.fs.Expenses"/>
+		   </intent-filter>
+		</activity>
+	
+			<activity android:name=".Transactions">
+		   <intent-filter>
+		      <action android:name="gen.fs.Transactions"/>
+		   </intent-filter>
+		</activity>
+		<activity android:name=".Viewbudget">
+		   <intent-filter>
+		      <action android:name="gen.fs.Viewbudget"/>
+		   </intent-filter>
+		</activity>
+		<activity android:name=".Addbudget">
+		   <intent-filter>
+		      <action android:name="gen.fs.Addbudget"/>
+		   </intent-filter>
+		</activity>
+		
+		<activity android:name=".Food">
+		   <intent-filter>
+		      <action android:name="gen.fs.Food"/>
+		   </intent-filter>
+		</activity>
+		
+		<activity android:name=".AddFood">
+		   <intent-filter>
+		      <action android:name="gen.fs.AddFood"/>
+		   </intent-filter>
+		</activity>
+		
+		<activity android:name=".Editincome">
+		   <intent-filter>
+		      <action android:name="gen.fs.Editincome"/>
+		   </intent-filter>
+		</activity>
+		
+		<activity android:name="Bills">
+		   <intent-filter>
+		      <action android:name="gen.fs.Bills"/>
+		   </intent-filter>
+		</activity>
+		
+		<activity android:name=".Viewbills">
+		<intent-filter>
+		<action android:name="gen.fs.Viewbills"/>
+		</intent-filter>
+		</activity>
+		
+		<activity android:name=".Addbills">
+		<intent-filter>
+			<action android:name="gen.fs.Addbills"/>
+		</intent-filter>
+		</activity>
+		
+			<activity android:name=".Monthly">
+		<intent-filter>
+			<action android:name="gen.fs.Monthly"/>
+		</intent-filter>
+		</activity>
+		
+			<activity android:name=".Daywise">
+		<intent-filter>
+			<action android:name="gen.fs.Daywise"/>
+		</intent-filter>
+		</activity>
+				<activity android:name="Grid">
+		<intent-filter>
+			<action android:name="Grid"/>
+		</intent-filter>
+		</activity>
+    	</application>
+</manifest>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/homee">
+    <EditText android:id="@+id/amount" android:text="" android:layout_x="134dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="60dip"></EditText>
+    <TextView android:id="@+id/textView1" android:textColor="#FFE87C" android:text="EnterAmount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="22dip" android:layout_y="77dip"></TextView>
+    <TextView android:id="@+id/textView2" android:textColor="#FFE87C" android:layout_x="21dip" android:text="Description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="136dip"></TextView>
+    <EditText android:id="@+id/desc" android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="133dip" android:layout_y="121dip"></EditText>
+    <Button android:text="Store" android:textColor="#7D053F" android:id="@+id/store" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="174dip" android:layout_y="256dip"></Button>
+    <TextView android:id="@+id/textView3" android:textColor="#FFE87C" android:layout_x="18dip" android:text="Select the Lastdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="192dip"></TextView>
+    <Button android:text="Select Date" android:textColor="#7D053F" android:id="@+id/pickDate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="156dip" android:layout_y="180dip"></Button>
+</AbsoluteLayout>

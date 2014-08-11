@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/homee">
+    <EditText android:layout_height="wrap_content"  android:text="" android:layout_width="wrap_content" 
+    android:layout_x="152dip" android:id="@+id/amount" android:layout_y="68dip"></EditText>
+    <EditText android:layout_height="wrap_content" android:text="" android:layout_width="wrap_content" 
+    android:layout_x="153dip" android:id="@+id/notes" android:layout_y="134dip"></EditText>
+    <TextView android:layout_height="wrap_content" android:textColor="#FFE87C" android:layout_width="wrap_content" 
+    android:text="Enter Amount" android:id="@+id/textView1" android:layout_x="30dip" android:layout_y="81dip"></TextView>
+    <TextView android:layout_height="wrap_content" android:textColor="#FFE87C" android:layout_width="wrap_content" android:text="Notes" 
+    android:id="@+id/textView2" android:layout_x="28dip" android:layout_y="146dip"></TextView>
+    <Button android:text="Select the date" android:textColor="#7D053F" android:layout_width="wrap_content" android:id="@+id/pickDate" 
+    android:layout_height="wrap_content" android:layout_x="16dip" android:layout_y="213dip"></Button>
+    <TextView android:layout_width="wrap_content" android:id="@+id/dateDisplay" 
+    android:layout_height="wrap_content" android:text="" android:layout_x="180dip" android:layout_y="222dip"></TextView>
+    <Button android:text="Add" android:textColor="#7D053F" android:layout_width="wrap_content" android:id="@+id/addfood" 
+    android:layout_height="wrap_content" android:layout_x="172dip" android:layout_y="264dip"></Button>
+</AbsoluteLayout>

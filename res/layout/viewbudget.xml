@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/homee">
+    <TextView android:text="Monthly Pay" android:textColor="#FFE87C" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="37dip" android:layout_y="120dip"></TextView>
+    <TextView android:text="Available Income" android:textColor="#FFE87C"  android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="37dip" android:layout_y="180dip"></TextView>
+    <TextView android:text="" android:textColor="#F88017" android:id="@+id/avail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="201dip" android:layout_y="182dip"></TextView>
+    <TextView android:text=""  android:id="@+id/net"  android:textColor="#F88017" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="201dip" android:layout_y="122dip"></TextView>
+    <TextView android:textColor="#FFE87C" android:text="Your Netincome and Available Balance are " android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="20dip" android:layout_y="37dip"></TextView>
+</AbsoluteLayout>

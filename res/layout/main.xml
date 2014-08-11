@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/homee"
+    
+   
+    >
+    
+    <TableRow android:layout_width="match_parent" android:id="@+id/tableRow1" android:layout_height="wrap_content">
+    </TableRow>
+    <Button android:text="Register" android:textColor="#306754" android:layout_width="wrap_content" android:id="@+id/register" android:layout_height="wrap_content" android:layout_x="152dip" android:layout_y="261dip"></Button>
+    <Button android:text="Login" android:textColor="#306754" android:layout_width="wrap_content" android:id="@+id/login" android:layout_height="wrap_content" android:layout_x="62dip" android:layout_y="261dip"></Button>
+    <EditText android:layout_width="match_parent" android:text="t" android:layout_height="wrap_content" android:id="@+id/et2" android:password="true" android:layout_x="2dip" android:layout_y="198dip"></EditText>
+    <TextView android:layout_width="wrap_content" android:textColor="#FFE87C" android:id="@+id/textView2" android:layout_height="wrap_content" android:text="Password" android:layout_x="5dip" android:layout_y="169dip"></TextView>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/et1" android:text="t" android:layout_x="-1dip" android:layout_y="120dip"></EditText>
+    <TextView android:layout_width="wrap_content" android:textColor="#FFE87C" android:id="@+id/textView1" android:layout_height="wrap_content" android:text="Username" android:layout_x="1dip" android:layout_y="98dip"></TextView>
+    <TextView android:layout_height="wrap_content" android:textSize="15px" android:text="Manage Your Personal Finance" android:id="@+id/textView3" android:textColor="#FFE87C" android:layout_width="wrap_content" android:layout_x="29dip" android:layout_y="29dip"></TextView>
+</AbsoluteLayout>
